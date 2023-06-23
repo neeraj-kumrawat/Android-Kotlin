@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Acronym</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="acronym_fragment_label">Find Acronym</string>
+    <string name="detail_fragment_label">Acronym Detail </string>
+
+    <string name="acronym_msg">Search any acronym to find it\'s meaning.</string>
+    <string name="empty_error">Please enter acronym.</string>
+    <string name="network_error">Please check your internet</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="hint_edit_input">Type acronym here</string>
+    <string name="search">Search</string>
+    <string name="delete">Clear History</string>
+    <string name="history">History</string>
+    <string name="many_acronyms_found">Acronym(s) found</string>
+    <string name="one_acronyms_found">Acronym found</string>
+    <string name="no_acronyms_found">Unable to found any Acronym</string>
+    <string name="api_error">Something went wrong, please try later</string>
+</resources>

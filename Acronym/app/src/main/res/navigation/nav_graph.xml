@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/AcronymFragment">
+
+    <fragment
+        android:id="@+id/AcronymFragment"
+        android:name="com.challenge.acronym.views.AcronymFragment"
+        android:label="@string/acronym_fragment_label"
+        tools:layout="@layout/fragment_acronym">
+
+        <action
+            android:id="@+id/action_AcronymFragment_to_DetailFragment"
+            app:destination="@id/DetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DetailFragment"
+        android:name="com.challenge.acronym.views.DetailFragment"
+        android:label="@string/detail_fragment_label"
+        tools:layout="@layout/fragment_detail">
+
+        <action
+            android:id="@+id/action_DetailFragment_to_AcronymFragment"
+            app:destination="@id/AcronymFragment" />
+    </fragment>
+</navigation>
